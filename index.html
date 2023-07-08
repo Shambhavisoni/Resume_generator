@@ -12,7 +12,7 @@
     <div class="container" id="cv-form">
         <h1 class="text-center my-2">Resume Generator</h1>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-5 card mt-2">
                 <h3>Personal Information</h3>
                 <div class="form-group">
                     <label for="nameField">Your Name</label>
@@ -45,8 +45,8 @@
                     <input type="url" id="LinkedField" class="form-control" placeholder="Enter here">
                 </div>
             </div>
-            <div class="col-md-6">
-                <h3>Professtional Information</h3>
+            <div class="col-md-6 card mt-2">
+                <h3>Professional Information</h3>
                 <div class="form-group mt-2">
                     <label for="">Objective</label>
                     <textarea id="ObjectiveField" class="form-control" placeholder="Enter here" rows="3"></textarea>
@@ -56,7 +56,7 @@
                     <textarea class="form-control weField" placeholder="Enter here" rows="3"></textarea>
                     <div class="container text-center mt-2" id="weAddButton">
                         <!-- sm is small -->
-                        <button onclick="addNewWEField()" class="btn btn-primary btn-sm">add</button>
+                        <button onclick="addNewWEField()" class="btn btn-primary btn-sm addBtn">add</button>
                     </div>
                 </div>
                 <div class="form-group mt-2" id="aq">
@@ -64,7 +64,7 @@
                     <textarea class="form-control aqField" placeholder="Enter here" rows="3"></textarea>
                     <div class="container text-center mt-2"id="aqAddButton">
                         <!-- sm is small -->
-                        <button onclick="addNewAQField()" class="btn btn-primary btn-sm">add</button>
+                        <button onclick="addNewAQField()" class="btn btn-primary btn-sm addBtn">add</button>
                     </div>
                 </div>
                 <div class="form-group mt-2" id="p">
@@ -72,13 +72,13 @@
                     <textarea class="form-control pField" placeholder="Enter here" rows="3"></textarea>
                     <div class="container text-center mt-2"id="pAddButton">
                         <!-- sm is small -->
-                        <button onclick="addNewPField()" class="btn btn-primary btn-sm">add</button>
+                        <button onclick="addNewPField()" class="btn btn-primary btn-sm addBtn">add</button>
                     </div>
                 </div>
             </div>
         </div>
         <div class="container text-center mt-3">
-            <button onclick="generateCV()" class="btn btn-primary btn-lg">Generate Resume</button>
+            <button onclick="generateCV()" class="btn btn-primary btn-lg addBtn">Generate Resume</button>
         </div>
     </div>
 <!-- cv template -->
