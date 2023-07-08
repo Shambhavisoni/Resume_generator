@@ -1,0 +1,33 @@
+/* #cv-form{
+    display:none;
+} */
+
+#cv-template{
+    display:none;
+}
+
+.myimg{
+    border: 1px solid grey;
+    border-radius: 50%;
+    width: 150px;
+}
+
+.background{
+    /* background-color:rgb(173, 242, 242); */
+}
+body {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.card {
+    box-shadow: 0 0 5px 0 ;
+    background: inherit;
+    backdrop-filter: blur(10px);
+    margin-left: 40px;
+    height:700px;
+}
+.addBtn{
+    background-color: black;
+}
